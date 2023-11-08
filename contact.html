@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fansite</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a class="link" href="index.html">Accueil</a>
+            <hr>
+            <a class="link" href="agenda.html">Agenda</a>
+            <hr>
+            <a class="link" href="discographie.html">Discographie</a>
+            <hr>
+            <a class="link" href="galerie.html">Galerie</a>
+            <hr>
+            <a class="link" href="contact.html">Contact</a>
+            <hr>
+            <a class="reseau" href="https://open.spotify.com/user/hungrymusic" target="_blank"><img src="img/spotify.png" alt="Spotify"></a>
+            <hr>
+            <a class="reseau" href="https://www.youtube.com/user/HungryMusicTV" target="_blank"><img src="img/youtube.png" alt="YouTube"></a>
+            <hr>
+            <a class="reseau" href="https://twitter.com/Hungry_Music_fr" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <section class="contact">
+            <article class="mainhead">
+                <h1>Contact</h1>
+            </article>
+            <div class="contactez-nous">
+                <h1>Contactez-nous</h1>
+                <form action="/page-traitement-donnees" method="post">
+                    <div>
+                        <label for="nom">Votre nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                    </div>
+                    <div>
+                        <label for="email">Votre e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
+                            required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Envoyer mon message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <nav class="menu">
+            <a class="link" href="index.html">Accueil</a>
+            <hr>
+            <a class="link" href="agenda.html">Agenda</a>
+            <hr>
+            <a class="link" href="discographie.html">Discographie</a>
+            <hr>
+            <a class="link" href="galerie.html">Galerie</a>
+            <hr>
+            <a class="link" href="contact.html">Contact</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
