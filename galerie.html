@@ -7,30 +7,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Fansite</title>
+    <title>HM Galerie</title>
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <a class="link" href="index.html">Accueil</a>
-            <hr>
-            <a class="link" href="agenda.html">Agenda</a>
-            <hr>
-            <a class="link" href="discographie.html">Discographie</a>
-            <hr>
-            <a class="link" href="galerie.html">Galerie</a>
-            <hr>
-            <a class="link" href="contact.html">Contact</a>
-            <hr>
-            <a class="reseau" href="https://open.spotify.com/user/hungrymusic" target="_blank"><img
-                    src="img/spotify.png" alt="Spotify"></a>
-            <hr>
-            <a class="reseau" href="https://www.youtube.com/user/HungryMusicTV" target="_blank"><img
-                    src="img/youtube.png" alt="YouTube"></a>
-            <hr>
-            <a class="reseau" href="https://twitter.com/Hungry_Music_fr" target="_blank"><img src="img/twitter.png"
-                    alt="Twitter"></a>
+            <label for="toggle">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class="menutel">
+                <a class="link" href="index.html">Accueil</a>
+                <hr>
+                <a class="link" href="agenda.html">Agenda</a>
+                <hr>
+                <a class="link" href="discographie.html">Discographie</a>
+                <hr>
+                <a class="link" href="galerie.html">Galerie</a>
+                <hr>
+                <a class="link" href="contact.html">Contact</a>
+            </div>
+            <div class="social">
+                <hr>
+                <a href="https://open.spotify.com/user/hungrymusic"></a>
+                <a class="reseau" href="https://open.spotify.com/user/hungrymusic" target="_blank"><img
+                        src="img/spotify.png" alt="Spotify"></a>
+                <hr>
+                <a href="https://www.youtube.com/user/HungryMusicTV"></a>
+                <a class="reseau" href="https://www.youtube.com/user/HungryMusicTV" target="_blank"><img
+                        src="img/youtube.png" alt="YouTube"></a>
+                <hr>
+                <a href="https://twitter.com/Hungry_Music_fr"></a>
+                <a class="reseau" href="https://twitter.com/Hungry_Music_fr" target="_blank"><img src="img/twitter.png"
+                        alt="Twitter"></a>
+            </div>
         </nav>
 
     </header>
@@ -65,18 +74,14 @@
         </section>
         </div>
     </main>
-    <footer>
-        <nav class="menu">
-            <a class="link" href="index.html">Accueil</a>
-            <hr>
-            <a class="link" href="agenda.html">Agenda</a>
-            <hr>
-            <a class="link" href="discographie.html">Discographie</a>
-            <hr>
-            <a class="link" href="galerie.html">Galerie</a>
-            <hr>
-            <a class="link" href="contact.html">Contact</a>
-        </nav>
+    <footer class="site-footer">
+        <div class="footer-menu">
+            <a href="index.html">Accueil</a>
+            <a href="agenda.html">Agenda</a>
+            <a href="discographie.html">Discographie</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </footer>
 </body>
 
